@@ -5,7 +5,7 @@
 .frist-sec{
     width: 100%;
     min-height: 100vh;
-    background-image: url(../img/Backgrund.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),#0000008f),url(../img/Backgrund.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -118,4 +118,88 @@ input[type="text"]
 }
 #color-3{
     background-color: rgba(255, 255, 0, 0.192);
+}
+.Sitakunde-and-shilet{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),#0000008f),url(../img/baground-img-2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.donate-me{
+     margin-left: 250px;
+     margin-right: 250px;
+     padding-top: 12%;
+}
+.conteinar-donet{
+text-align: center;
+color: white;
+}
+.my-text{
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(180, 134, 49);
+}
+.my-para{
+    font-weight: 300;
+    font-size: 40px;
+}
+.Subscribe-sec{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Subscribe-continar{
+    text-align: center;
+    text-align: center;
+    padding: 20px 200px 20px 200px;
+}
+.comfarm-mail{
+display: flex;
+justify-content: center;
+margin-top: 110px;
+width: 50%;
+margin-left: 20%;
+padding: 50px;
+background-color: rgba(247, 217, 86, 0.26);
+position: relative;
+}
+.comfarm-mail input{
+    border: none;
+    width: 379px;
+    height: 25px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+
+}
+.Subscribe-btn{
+    padding: 15px 20px 15px 20px;
+    border: none;
+    position: absolute;
+    top: 60px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.futer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+
+}
+.futer-taitel{
+    font-weight: 700;
+    color: red;
+}
+.futer-para{
+    color: rgb(174, 175, 177);
+}
+.futer-text{
+    margin-top: 110px;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 50px;
 }
